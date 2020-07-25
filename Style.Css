@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
@@ -45,7 +44,7 @@ nav
 nav .logoHeader a
 {
     position: absolute;
-    left: 15%;
+    left: 10%;
     font-family: 'Holtwood One SC', serif;
     font-size: 1em;
     text-decoration:none;
@@ -388,7 +387,7 @@ nav .logoHeader a
     color: rgba(255,255,255,0.6);
 }
 .companyText h3{
-    font-size: 1.6em;
+    font-size: 1.3em;
     text-align: center;
     align-items: flex-start;
     position: relative;
@@ -480,7 +479,7 @@ nav .logoHeader a
     nav .logoHeader a{
         position: relative;
         
-        font-size: 1.2em;
+        font-size: 1.1em;
         margin: 0;
         left: 5%;
         top: 28%;
@@ -574,7 +573,7 @@ nav .logoHeader a
 
 
     .middleFirst img{
-        width: 80%;
+        width: 85%;
         height: 400px;
         position: relative;
         left: 5%;
@@ -661,28 +660,28 @@ nav .logoHeader a
 
     .experience{
         width: 100%;
-        height: 900px;
+        height: 1000px;
         
         display: grid;
         grid-template-columns: 1fr;
     }
 
     .experience1{
-        width: 80%;
-        height: 400px;
-        left: 10%;
+        width: 90%;
+        height: 450px;
+        left: 5%;
     }
 
     .experience2{
-        width: 80%;
-        height: 400px;
-        left: 10%;
+        width: 90%;
+        height: 450px;
+        left: 5%;
         margin: 0;
         top: -5%;
     }
 
     .companyDes p{
-        font-size: 0.9em;
+        font-size: 0.8em;
         margin: 0;
         top: -20%;
     }
