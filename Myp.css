@@ -1,0 +1,951 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+html{
+    font-size: calc(1em + 1vw);
+    width: auto;
+    height: auto;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    width: auto;
+    margin: 0px;
+    color: white;
+    background-color: black;
+    height: auto;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+
+nav
+{
+    
+    display: grid;
+    position: fixed;
+    margin: 0px;
+    width: 100%;
+    height: 65px;
+    z-index: 2;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-decoration: none;
+    
+}
+
+
+
+nav .logoHeader a
+{
+    position: absolute;
+    left: 15%;
+    font-family: 'Holtwood One SC', serif;
+    font-size: 1em;
+    text-decoration:none;
+    color: rgba(255,0,0,0.5);
+    position: relative;
+    top: 10%;
+    letter-spacing: 1px;
+    z-index: 12;
+    
+}
+
+
+
+
+.nav-links{
+    display: inline-flex;
+    list-style: none;
+    width: 70%;
+    height: auto;
+    margin-right: 20px;
+    letter-spacing: 1px;
+}
+
+    
+
+
+.nav-links li a{
+   position: relative;
+    color: rgba(255,255,255,0.7);
+    top: 0%;
+    text-decoration: none;
+    font-size: 0.4em;
+    justify-content: space-between;
+    margin-left: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    z-index: 100;
+    font-family: 'Monoton', cursive;
+}
+
+
+
+
+
+.nav-links li a::after{
+   
+    content: '';
+    position: absolute;
+    color: rgba(255,0,0,0.7);
+    top: 0px;
+    left: 0;
+    background-color:rgba(255,0,0,0.5);
+    width: 0px;
+    z-index: -1;
+    height: 100%;
+    transition: 0.8s ease-in-out;
+}
+
+.nav-links li a:hover::after{
+
+    width: 100%;
+}
+
+.middle{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.middleFirst{
+    width: 90%;
+    height: 600px;
+    position: relative;
+    margin: 0;
+    
+    position: relative;
+    left: 10%;
+}
+
+.middleFirst img{
+    width: 80%;
+    height: 450px;
+    position: relative;
+    left: 10%;
+    top: 15%;
+    border-radius: 50%;
+    margin: 0;
+    box-shadow: 1px 1px 20px 1px rgba(104, 104, 104, 0.8);
+}
+
+.middleSecond{
+    width: 95%;
+    height: 600px;
+    margin: 0px;
+    
+    bottom: 50%;
+}
+
+.firstText{
+    width: 100%;
+    height: auto;
+    
+    
+    position: relative;
+    top: 20%;
+    
+}
+.firstText h4{
+    width: 80%;
+    font-size: 1.5em;
+    color: rgba(255,255,255,0.9);
+    font-family: 'Bungee', cursive;
+    font-size: 1em;
+    letter-spacing: 2px;
+}
+
+.secondText{
+    width: 100%;
+    height: auto;
+    
+    position: relative;
+    top: 20%;
+    
+}
+
+.secondText h4{
+    width: 85%;
+    position: relative;
+    left: 15%;
+    font-size: 0.6em;
+    color: rgba(255,255,255,0.7);
+    font-family: 'Carter One', cursive;
+}
+
+.skillText{
+    width: 100%;
+    
+    height: 40px;
+    margin: 0px;
+    position: relative;
+    
+    text-align: center;
+    
+}
+.skillText h4{
+    margin: 0;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 10px;
+    color: rgba(255,0,0,0.5);
+    text-transform: uppercase;
+}
+
+.skillMiddle{
+    width: 100%;
+    height: 550px;
+    
+}
+
+.skills{
+    width: 100%;
+    height: 500px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.skill1,
+.skill2,
+.skill3,
+.skill4,
+.skill5,
+.skill6,
+.skill7,
+.skill8{
+    width: 80%;
+    height: 200px;
+    
+    position: relative;
+    left: 10%;
+    top: 5%;
+    border-radius: 5%;
+
+}
+
+.skill1 img,
+.skill2 img,
+.skill3 img,
+.skill4 img,
+.skill5 img,
+.skill6 img,
+.skill7 img,
+.skill8 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+
+.skills2{
+    width: 100%;
+    height: 500px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.skill11,
+.skill22,
+.skill33,
+.skill44,
+.skill55,
+.skill66,
+.skill77,
+.skill88{
+    width: 79%;
+    
+    height: 195px;
+    color: black;
+    position: relative;
+    top: 0;
+    left: 0;
+    border: solid  rgba(255,255,255,0.2);
+    background-color: gray;
+    border-radius: 5%;
+    margin: 0;
+    left: 10%;
+    top: -195%;
+    opacity: -1;
+    
+    
+
+}
+
+.skill11 p,
+.skill22 p,
+.skill33 p,
+.skill44 p,
+.skill55 p,
+.skill66 p,
+.skill77 p,
+.skill88 p{
+    width: 90%;
+    height: 100%;
+    border-radius: 5%;
+    font-size: 0.8em;
+    position: relative;
+    left: 5%;
+    font-size: 0.7em;
+    font-family: 'EB Garamond', serif;
+    margin-top: 10px;
+    
+    
+}
+
+.skill11:hover,
+.skill22:hover,
+.skill33:hover,
+.skill44:hover,
+.skill55:hover,
+.skill66:hover,
+.skill77:hover,
+.skill88:hover{
+    opacity: 1;
+    transition: ease-in-out 1.5s;
+}
+
+.experienceText{
+    width: 100%;
+    
+    height: 40px;
+    margin: 0px;
+    position: relative;
+    top: 90%;
+    
+    text-align: center;
+    
+}
+.experienceText h4{
+    margin: 0;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 10px;
+    position: relative;
+    top: -20%;
+    text-transform: uppercase;
+    color: rgba(255,0,0,0.5);
+}
+
+.experience{
+    width: 100%;
+    height: 600px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.experience1,
+.experience2{
+    width: 80%;
+    height: 500px;
+    margin: 0;
+    position: relative;
+    left: 15%;
+    
+    border: solid rgba(255,0,0,0.5);
+   
+}
+
+.experience2{
+    left: 5%;
+}
+
+.companyText
+{
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    
+   
+}
+
+.companyDes{
+    width: 100%;
+    height: 380px;
+    
+}
+
+.companyDes p{
+
+    width: 93%;
+    position: relative;
+    left: 5%;
+    margin: 0;
+    top: -10%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.7em;
+    line-height: 1.4em;
+    color: rgba(255,255,255,0.6);
+}
+.companyText h3{
+    font-size: 1.6em;
+    text-align: center;
+    align-items: flex-start;
+    position: relative;
+   top: -30%;
+   color: rgba(255,255,255,0.9);
+}
+
+.contact{
+    width: 100%;
+    
+    height: 40px;
+    margin: 0px;
+    position: relative;
+    top: -10%;
+    
+    text-align: center;
+    
+}
+.contact h4{
+    margin: 0;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    position: relative;
+    top: -60%;
+    color: rgba(255,0,0,0.5);
+}
+
+.contactDetails{
+    width: 100%;
+    height: 200px;
+    
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+
+
+
+.phone{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+}
+
+
+
+.contactFirst{
+    
+    width: 100%;
+    height: auto;
+}
+.contactFirst iframe{
+    width: 50%;
+    height: 250px;
+    position: relative;
+    left: 40%;
+    border-radius: 5%;
+}
+
+.contactSecond h4{
+    font-family: 'Balsamiq Sans', cursive;
+    margin: 0px;
+}
+.contactSecond h5{
+    font-size: 0.6em;
+    margin: 5px;
+    position: relative;
+    color: rgba(255,255,255,0.4);
+    left: 5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 2px;
+}
+
+
+@media screen and (max-width: 690px) {
+
+    body{
+        margin: 0;
+    }
+    nav{
+        position: fixed;
+        margin-top: 0px;
+        z-index: 120;
+        margin: 0px; 
+    }
+
+    nav .logoHeader a{
+        position: relative;
+        
+        font-size: 1.2em;
+        margin: 0;
+        left: 5%;
+        top: 28%;
+    }
+   
+    .line{
+        width: 30px;
+        height: 4px;
+        background: rgba(255,0,0,0.5);;
+        margin: 5px;
+    }
+    
+  
+
+    .hamburger{
+        position: absolute;
+        align-items: flex-end;
+        cursor: pointer;
+        right: 0%;
+        left: 120%;
+        top: 60%;
+        transform: translate(-30%, -50%);
+        z-index: 2000;
+        width: 100%;
+    }
+
+    .nav-links {
+        position: fixed;
+        color: rgba(255,0,0,0.5);
+        height: 100vh;
+        width: 100%;
+        padding-top: 40px;
+        margin: 0;
+        flex-direction: column;
+        clip-path: circle(100px at 88% -20%);
+        -webkit-clip-path: circle(100px at 88% -20%);
+        pointer-events: none;
+        z-index: 0;
+        transition: all 2s ease-out;
+    }   
+
+    .nav-links.open{
+        
+        margin-top: 100%;
+        background: rgba(0,0,0,0.9);
+        clip-path: circle(1200px at 90% -10%);
+        -webkit-clip-path: circle(1200px at 90% -10%);
+        pointer-events: all;
+        z-index: 1000;
+        margin: 0;
+    }
+   
+    
+
+    .nav-links li{
+        opacity: 0;
+        margin-top: 40px;
+    }
+    .nav-links li a{
+        font-size: 2rem;
+        
+        color: rgba(255,255,255,0.5);
+        font-weight: bolder;
+        
+        
+    }
+    .nav-links li:nth-child(1){
+        transition: all 0.5s ease .4s;
+    }
+    .nav-links li:nth-child(2){
+        transition: all 0.5s ease 0.6s;
+    }
+    .nav-links li:nth-child(3){
+        transition: all 0.6s ease 0.8s;
+    }
+    .nav-links li:nth-child(4){
+        transition: all 0.10s ease 0.8s;
+    }
+    .nav-links li:nth-child(5){
+        transition: all 0.11s ease 0.8s;
+    }
+    li.fade {
+        opacity: 1;
+    }
+
+    .middle{
+        height: 870px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+
+    .middleFirst img{
+        width: 80%;
+        height: 400px;
+        position: relative;
+        left: 5%;
+        top: 15%;
+        
+    
+
+    }
+    .middleSecond{
+        margin: 0;
+        position: relative;
+        top: -30%;
+        left: 0%;
+    }
+    .firstText{
+        position: relative;
+        left: 5%;
+
+    }
+    .firstText h4{
+        text-align: center;
+    }
+
+    .skillMiddle{
+        width: 100%;
+        height: 1000px;
+        
+    }
+
+    .skills{
+       
+        height: 1000px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .skill1,
+    .skill2,
+    .skill3,
+    .skill4,
+    .skill5,
+    .skill6,
+    .skill7,
+    .skill8{
+        width: 90%;
+        height: 200px;
+    
+        position: relative;
+        left: 5%;
+        top: 5%;
+        border-radius: 5%;
+
+    }
+
+    .skills2{
+        height: 1000px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .skill11,
+    .skill22,
+    .skill33,
+    .skill44,
+    .skill55,
+    .skill66,
+    .skill77,
+    .skill88{
+        width: 89%;
+        height: 200px;
+        font-size: 1.2em;
+        position: relative;
+        left: 5%;
+        top: -396%;
+        border-radius: 5%;
+        opacity: -1;
+        
+        
+
+    }
+
+    .experience{
+        width: 100%;
+        height: 900px;
+        
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .experience1{
+        width: 80%;
+        height: 400px;
+        left: 10%;
+    }
+
+    .experience2{
+        width: 80%;
+        height: 400px;
+        left: 10%;
+        margin: 0;
+        top: -5%;
+    }
+
+    .companyDes p{
+        font-size: 0.9em;
+        margin: 0;
+        top: -20%;
+    }
+
+    .contactFirst iframe{
+        width: 80%;
+        height: 250px;
+        position: relative;
+        left: 10%;
+        border-radius: 5%;
+    }
+
+    .contactSecond h4{
+        font-size: 0.8em;
+    }
+    .contactSecond h5{
+        font-size: 0.7em;
+        position: relative;
+        left: -1%;
+    }
+
+    .contactSecond img{
+        width: 100%;
+        height: 120px;
+    }
+
+
+}
+
+
+@media screen and (min-width: 691px) and (max-width:890px) {
+
+    body{
+        margin: 0;
+    }
+    nav{
+        position: fixed;
+        margin-top: 0px;
+        z-index: 120;
+        margin: 0px; 
+    }
+
+    nav .logoHeader a{
+        position: relative;
+        
+        font-size: 1em;
+        margin: 0;
+        left: 5%;
+        top: 28%;
+    }
+
+    .nav-links li a{
+         position: relative;
+         color: rgba(255,255,255,0.7);
+         top: 0%;
+         text-decoration: none;
+         font-size: 0.4em;
+         justify-content: space-between;
+         margin-left: 1em;
+         
+     }
+   
+   
+    
+  
+
+    
+
+    
+
+    
+   
+    
+
+    
+    .middle{
+        height: 870px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .middleFirst img{
+        width: 70%;
+        height: 400px;
+        position: relative;
+        left: 5%;
+        top: 15%;
+    
+
+    }
+    .middleSecond{
+        margin: 0;
+        position: relative;
+        top: -30%;
+        left: 0%;
+    }
+    .firstText{
+        position: relative;
+        left: 5%;
+    }
+    .firstText h4{
+        text-align: center;
+    }
+
+    .skillMiddle{
+        width: 100%;
+        height: 1000px;
+        
+    }
+
+    .skills{
+       
+        height: 1000px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .skill1,
+    .skill2,
+    .skill3,
+    .skill4,
+    .skill5,
+    .skill6,
+    .skill7,
+    .skill8{
+        width: 90%;
+        height: 200px;
+    
+        position: relative;
+        left: 5%;
+        top: 5%;
+        border-radius: 5%;
+
+    }
+
+    .skills2{
+        height: 1000px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .skill11,
+    .skill22,
+    .skill33,
+    .skill44,
+    .skill55,
+    .skill66,
+    .skill77,
+    .skill88{
+        width: 89%;
+        height: 200px;
+        font-size: 1.2em;
+        position: relative;
+        left: 5%;
+        top: -396%;
+        border-radius: 5%;
+        opacity: -1;
+        
+        
+
+    }
+
+    .experience{
+        width: 100%;
+        height: 900px;
+        
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .experience1{
+        width: 80%;
+        height: 400px;
+        left: 10%;
+    }
+
+    .experience2{
+        width: 80%;
+        height: 400px;
+        left: 10%;
+        margin: 0;
+        top: -5%;
+    }
+
+    .companyDes p{
+        font-size: 0.9em;
+        margin: 0;
+        top: -20%;
+    }
+
+    .contactFirst iframe{
+        width: 80%;
+        height: 250px;
+        position: relative;
+        left: 10%;
+        border-radius: 5%;
+    }
+
+    .contactSecond h4{
+        font-size: 0.8em;
+    }
+    .contactSecond h5{
+        font-size: 0.7em;
+        position: relative;
+        left: -1%;
+    }
+
+    .contactSecond img{
+        width: 100%;
+        height: 120px;
+    }
+
+
+}
+
+@media screen and (min-width: 891px) and (max-width:1049px){
+ 
+    .middle{
+        width: 100%;
+        height: 650px;
+        
+    }
+
+    .middleFirst img{
+        width: 100%;
+        position: relative;
+        left: 0%;
+    }
+    .firstText h4{
+        position: relative;
+        left: 15%;
+    }
+
+    .secondText h4{
+        width: 85%;
+        position: relative;
+        left: 20%;
+        font-size: 0.6em;
+        color: rgba(255,255,255,0.7);
+        font-family: 'Carter One', cursive;
+    }
+
+    .skill1,
+    .skill2,
+    .skill3,
+    .skill4,
+    .skill5,
+    .skill6,
+    .skill7,
+    .skill8{
+        width: 90%;
+    }
+
+    .skill11,
+    .skill22,
+    .skill33,
+    .skill44,
+    .skill55,
+    .skill66,
+    .skill77,
+    .skill88{
+        width: 89%;
+        
+        
+        height: 195px;
+    }
+}
