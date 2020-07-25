@@ -111,7 +111,7 @@ nav .logoHeader a
 
 .middle{
     width: 100%;
-    height: 600px;
+    height: 700px;
     position: relative;
     
     display: grid;
@@ -590,11 +590,13 @@ nav .logoHeader a
         left: 0%;
     }
     .firstText{
+        width: 100%;
         position: relative;
         left: 5%;
 
     }
     .firstText h4{
+        width: 100%;
         text-align: center;
     }
 
@@ -911,6 +913,7 @@ nav .logoHeader a
         left: 0%;
     }
     .firstText h4{
+        width: 100%;
         position: relative;
         left: 15%;
     }
