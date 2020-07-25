@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
 html{
     font-size: calc(1em + 1vw);
@@ -351,7 +352,7 @@ nav .logoHeader a
     position: relative;
     left: 15%;
     
-    border: solid rgba(255,0,0,0.5);
+    border: solid 5px rgba(255,0,0,0.5);
    
 }
 
@@ -391,7 +392,9 @@ nav .logoHeader a
     text-align: center;
     align-items: flex-start;
     position: relative;
-   top: -30%;
+    letter-spacing: 2px;
+    font-family: 'Abril Fatface', cursive;;
+    top: -25%;
    color: rgba(255,255,255,0.9);
 }
 
